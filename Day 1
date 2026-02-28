@@ -1,0 +1,6 @@
+1. select owner_name, vehicle from inspections
+where minor_issues <= 3 and critical_issues = 0
+
+2. select count(customer_id)
+from customers
+where age  >= 65 or total_purchase > 200
